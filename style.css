@@ -5,6 +5,12 @@ body{
   min-height: 200;
   background-color: bisque;
 }
+h2{
+  color: green;
+}
+h3{
+  color: olive;
+}
 .header{
   background-color: olive;
 }
@@ -42,21 +48,22 @@ a {
 }
 .fio{
   text-align: center;
+  font-style: italic;
 }
 .info{
-  font-size: 1rem;
+  font-size: 16px;
+  font-style: italic;
+}
+.info-padding{
+  padding-left: 0px;
 }
 .code{
-  padding: 3px;
   margin: 0;
 }
 .code-list{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
   text-align: left;
   color: #11124b;
+  font-size: 16px;
 }
 .footer{
   background-color: olive;
