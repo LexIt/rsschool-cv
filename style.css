@@ -3,6 +3,10 @@ body{
   flex-direction: column;
   min-width: 400;
   min-height: 200;
+  background-color: bisque;
+}
+.header{
+  background-color: olive;
 }
 .d-header{
   max-width: 80%;
@@ -31,12 +35,33 @@ a {
   text-decoration: none;
   display: block;
 }
-
-.fio{
-  text-align: center;
-}
 .myphoto{
   width: 250px;
   border-radius: 5%;
   margin: 10px;
+}
+.fio{
+  text-align: center;
+}
+.code{
+  padding: 3px;
+  margin: 0;
+}
+.code-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  color: #11124b;
+}
+.footer{
+  background-color: olive;
+}
+.rsschool {
+  width: 121px;
+  height: 45px;
+  background-image: url("https://rs.school/images/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
