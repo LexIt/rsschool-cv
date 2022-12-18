@@ -12,9 +12,10 @@
     <div class="d-header">
       <nav class="nav">
         <ul class="nav-menu">
-          <li class="menu-item"><h2><a href="">About</a></h2></li>
-          <li class="menu-item"><h2><a href="">Skills & Expirience</a></h2></li>
-          <li class="menu-item"><h2><a href="">Contacs</a></h2></li>
+          <li class="menu-item"><h2><a href="#about">About</a></h2></li>
+          <li class="menu-item"><h2><a href="#skills">Skills</a></h2></li>
+          <li class="menu-item"><h2><a href="#code">Code</a></h2></li>
+          <li class="menu-item"><h2><a href="#contacs">Contacs</a></h2></li>
         </ul>
       </nav>
     </div>
@@ -24,49 +25,64 @@
     <div class="container">
       <img class="myphoto" src="./assets/img/photo.jpg" alt="My_photo">
       <div class="fio"><h1>Serhii Zhukov</h1></div>
-      <div class="skills"><h2>Skills</h2></div>
     </div>
+    <div class="about" id="about"><h2>About</h2></div>
+      <div class="some-info">
+        <pre class="info">
+          I like programming.
+          I programming all my life in different languages.
+          Now I want to try web dev )
+        </pre>
+      </div>
+    <div class="skills" id="skills"><h2>Skills</h2></div>
     <ul>
       <li><h2>C#</h2>
         <div class="skill-detail">
-            <span class="skill-info">
-                <span>I have some experience in developing multi-threaded distributed systems.</span>
-            </span>
+            <pre class="skill-info">
+              I have some experience in developing multi-threaded distributed systems.
+            </pre>
         </div>
       </li>
       <li><h2>SQL</h2>
         <div class="skill-detail">
-          <span class="skill-info">
-              <span>Good knowledge and expirience in SQL language for defferent RDBMS.</span>
-          </span>
+          <pre class="skill-info">
+            Good knowledge and expirience in SQL language for defferent RDBMS.
+          </pre>
         </div>
       </li>
       <li><h2>Kotlin</h2>
         <div class="skill-detail">
-          <span class="skill-info">
-              <span>Studied on the Kotlin language course at rs-school.</span>
-          </span>
+          <pre class="skill-info">
+            Studied on the Kotlin language course at rs-school.
+          </pre>
         </div>
       </li>
       <li><h2>English</h2>
         <div class="skill-detail">
-          <span class="skill-info">
-              <span>Pre-Intermediate.</span>
-          </span>
+          <pre class="skill-info">
+              Pre-Intermediate.
+          </pre>
         </div>
       </li>
     </ul>
-    <div class="code">
+    <div class="code-list" id="code">
       <h2>Code</h2>
-      <div class="code-list">
-        <pre>
-          <code>
-            int[] numbers = { 31, 5, 6, 4, 3};
-            int query = numbers.Aggregate((x,y)=> x - y);
-            Console.WriteLine(query); 
-          </code>
-        </pre>
-      </div>
+      <pre>
+        <code>
+          int[] numbers = { 31, 5, 6, 4, 3};
+          int query = numbers.Aggregate((x,y)=> x - y);
+          Console.WriteLine(query); 
+        </code>
+      </pre>
+    </div>
+    <div class="contacts" id="contacts">
+      <h2>Contacts</h2>
+      <ul>
+        <i>Email: a@b.com</i>
+        <i>Github: <a href="https://LexIt.github.io/rsschool-cv/cv" class="github">LexIt</a></i>
+        <i>Discord: <a href="#">Serge#5264</a></i>
+      </ul>
+      
     </div>
   </main>
   
