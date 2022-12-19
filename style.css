@@ -47,8 +47,9 @@ a {
   margin: 10px;
 }
 .fio{
-  text-align: center;
+  text-align: left;
   font-style: italic;
+  padding-left: 30;
 }
 .info{
   font-size: 16px;
