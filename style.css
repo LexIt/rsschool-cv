@@ -1,0 +1,77 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  min-height: 160px;
+  background-color: bisque;
+}
+h2{
+  color: green;
+}
+h3{
+  color: olive;
+}
+.header{
+  background-color: olive;
+}
+.d-header{
+  max-width: 80%;
+  min-height: 10%;
+}
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  position: relative;
+  color: #11124b;
+  border-bottom:2px solid #000000;
+  padding:4px 0;
+}
+.menu-item{
+  display: inline-flex;
+  text-decoration:none;
+  margin-left:3px;
+  border:1px solid #000000;
+  padding: 3px 4px;
+  border-bottom:0;
+  background:#CEDEFF;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.myphoto{
+  width: 250px;
+  border-radius: 5%;
+  margin: 10px;
+}
+.fio{
+  text-align: center;
+  font-style: italic;
+}
+.info{
+  font-size: 16px;
+  font-style: italic;
+}
+.info-padding{
+  padding-left: 0px;
+}
+.code{
+  margin: 0;
+}
+.code-list{
+  text-align: left;
+  color: #11124b;
+  font-size: 16px;
+}
+.footer{
+  background-color: olive;
+}
+.rsschool {
+  width: 121px;
+  height: 45px;
+  background-image: url("https://rs.school/images/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
